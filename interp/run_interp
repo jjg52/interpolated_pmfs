@@ -1,0 +1,12 @@
+#!/bin/bash
+
+python interp.py zmat1 zmat2
+for i in zma_*
+do
+python gc.py -zmat $i > cart_$i
+python crd_maker.py cart_$i
+echo $i | tr -d 'zma_' > num
+./addwat.exe < num &
+done
+rm zma_*
+rm cart_*

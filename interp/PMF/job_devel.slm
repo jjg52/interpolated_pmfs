@@ -1,0 +1,18 @@
+#!/bin/bash
+# set the account to be used for the job
+#SBATCH --account=free
+#SBATCH --partition=batch-devel
+#SBATCH --qos=devel
+# set name of job
+#SBATCH --job-name=pmf_CA
+#SBATCH --output=pmf_CA.out
+#SBATCH --error=pmf_CA.err
+# set the number of nodes
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+# set max wallclock time
+#SBATCH --time=00:15:00
+# mail alert at start, end and abortion of execution
+# send mail to this address
+# run the application
+./sub_pmf

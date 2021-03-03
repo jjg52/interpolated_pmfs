@@ -1,0 +1,196 @@
+!===============================================================================
+!             OPLS MM Definition File for Some Common Ions and Water
+!===============================================================================
+MM_Definitions OPLS_AA 1.0
+
+! . Atom Type Definitions.
+Types
+! Atom Name     Atomic Number       Sigma       Epsilon
+HC                    1            2.50000      0.03000
+HO                    1            0.00000      0.00000
+HW                    1            0.00000      0.00000
+CT                    6            3.50000      0.06600
+CAA                   6            2.25000      0.05000 ! CA in Arg
+OH                    8            3.12000      0.17000
+OW                    8            3.15061      0.15210 
+NA                   11            1.89744      1.60714
+CL                   17            4.41724      0.11779
+S    	             16            2.0000       0.25000
+CR                    6            1.9080       0.10940
+O                     8            1.6612       0.21000
+H1                    1            1.3870       0.01570
+F                     9            2.9400       0.06100      
+Br                   35            3.4700       0.47000
+OA                    8            2.9000       0.14000
+OL		      8		   3.0000	0.17000 ! O in ester C-O
+CO                    6            3.5000       0.06600
+CB                    6            3.5500       0.07000
+HB                    1            2.4200       0.03000
+NO                    7            3.2500       0.12000
+ON                    8            2.9600       0.17000
+OX		      8		   2.9600	0.21000 ! O in COO-, O in ester C=O
+End
+
+! . Electrostatics and Lennard-Jones Options.
+Electrostatics Scale 0.5
+Lennard_Jones  Scale 0.5
+
+! . Units specification.
+Units kcal/mole
+
+! . Residue Definitions.
+Residues
+
+!------------------------------------------------------------------
+Residue THPA
+!------------------------------------------------------------------
+! # Atoms, Bonds and Impropers.
+29   0  0
+C1   CT    0.000000
+C2   CT    0.000000
+C3   CT    0.000000
+C4   CT    0.000000
+C5   CT    0.000000
+H6   HC    0.000000
+H7   HC    0.000000
+H8   HC    0.000000
+H9   HC    0.000000
+H10  HC    0.000000
+H11  HC    0.000000
+H12  HC    0.000000
+H13  HC    0.000000
+H14  HC    0.000000
+O15  OA    0.000000
+O16  OA    0.000000
+C17  CB    0.000000
+C18  CB    0.000000
+C19  CB    0.000000
+H20  HB    0.000000
+H21  HB    0.000000
+C22  CB    0.000000
+C23  CB    0.000000
+H24  HB    0.000000
+H25  HB    0.000000
+C26  CB    0.000000
+N27  NO    0.000000
+O28  ON    0.000000
+O29  ON    0.000000
+
+
+!------------------------------------------------------------------
+Residue HOH
+!------------------------------------------------------------------
+! # Atoms, Bonds and Impropers.
+  3  3  0
+OH2      OW      -0.834
+H1       HW       0.417
+H2       HW       0.417
+
+OH2 H1 ; OH2 H2 ; H1 H2
+
+!------------------------------------------------------------------
+Residue BAL
+!------------------------------------------------------------------
+!      #       Atoms, Bonds and Impropers.
+  9  0  0
+C1	CT	0.000000
+H2	HC	0.000000
+H3      HC      0.000000
+C4	CT	0.000000
+H5      HC      0.000000
+Br6     Br      0.000000
+C7      CT      0.000000
+O8	OX	0.000000
+O9	OX	0.000000
+
+!------------------------------------------------------------------
+Residue GLU
+!------------------------------------------------------------------
+! # Atoms, Bonds and Impropers.
+   27   0  0
+C1	CT	0.000000      
+C2	CT	0.000000	
+C3	CT    	0.000000	
+C4	CT      0.000000
+O5      OA	0.000000
+C6	CT      0.000000 
+O7      OH	0.000000
+H8      HC	0.000000
+O9      OH	0.000000
+H10     HC	0.000000
+O11     OH	0.000000
+H12     HC	0.000000
+C13	CT      0.000000
+H14     HC	0.000000
+H15     HC	0.000000
+F16     F	0.000000
+O17     OH	0.000000	
+H18     HO	0.000000
+H19     HO	0.000000
+H20     HO 	0.000000
+H21     HO 	0.000000
+H22     HC	0.000000
+H23     HC	0.000000
+O24     OW      0.000000
+H25     HW      0.000000
+H26     HW      0.000000
+H27	HW	0.000000
+
+
+
+End
+
+! . Parameter Definitions.
+Parameters
+
+Bonds
+! Atoms      FC     Equil.
+CT CT      268.0    1.5290
+CT HC      340.0    1.0900
+CT OH      320.0    1.4100
+CT F       344.4    1.3600
+HO OH      553.0    0.9450
+HW OW      529.6    0.9572
+HW HW       38.25   1.5139
+S    O     570.0    1.5300
+CR   S     227.0    1.8100
+CR   H1    340.0    1.0900
+End
+
+Angles
+! Atoms      FC     Equil.
+! TFE Specific J. Chem. Phys. 115, 5521
+! Constants of Force take from DYNAMO and CHARMM
+HC CT HC   33.00    110.10
+HC CT OH   35.00    109.50
+CT CT OH   50.0     111.50
+CT CT F    50.0     111.30
+F  CT F    55.00    109.10
+CT OH HO   55.00    108.80
+CT CT HC   37.5     110.70
+! REST
+HW OW HW   34.05    104.52
+HW HW OW    0.0      37.74
+H1 CR S    50.0     109.5
+CR S  CR   62.0      97.4
+O  S  CR   80.0     106.75
+H1 CR H1   35.0     109.50
+End
+
+Dihedrals
+! Atoms                 V0        V1        V2        V3
+! TFE from DYNAMO
+HO   OH   CT   CT     0.5957    4.478    -2.1746    0.000      ! trifluoroethanol
+HC   CT   OH   HO     0.0000    0.0000    0.0000    0.476      ! trifluoroethanol
+F    CT   CT   HC     0.0000    0.0000    0.0000    0.3137     ! trifluoroethanol
+F    CT   CT   OH     0.0000    0.0000    0.0000    0.5401     ! trifluoroethanol
+! REST
+!HC   CT   OH   HO     0.000     0.000     0.000     0.450
+HC   CT   CT   HC     0.000     0.000     0.000     0.318
+HC   CT   CT   OH     0.000     0.000     0.000     0.468
+H1   CR   S    CR     0.000 	0.000     0.000     0.647
+O    S    CR   H1     0.000 	0.000     0.000     0.647
+End
+
+End
+End

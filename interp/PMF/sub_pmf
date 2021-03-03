@@ -1,0 +1,19 @@
+#!/bin/bash
+module load python3
+
+for i in {-1..14}
+do
+mkdir dir_$i
+cd dir_$i
+cp ../../$i.seq .
+cp ../../BAL.opls .
+cp ../../$i.crd .
+cp ../pmf.exe .
+cp ../*.py .
+#cp ../../$i.seq .
+echo $i > num
+python calculator.py $i.crd >> num
+./pmf.exe < num > log.$i &
+cd ..
+done
+wait

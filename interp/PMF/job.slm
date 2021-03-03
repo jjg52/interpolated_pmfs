@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# set the account to be used for the job
+
+#SBATCH --account=free
+# set name of job
+#SBATCH --job-name=md
+#SBATCH --output=md.out
+#SBATCH --error=md.err
+# set the number of nodes
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+# set max wallclock time
+#SBATCH --time=06:00:00
+#SBATCH --partition=batch
+# mail alert at start, end and abortion of execution
+# run the application
+./sub_pmf

@@ -1,0 +1,3 @@
+#!/bin/bash
+#edit profile name accordingly
+./wham_sm.py   dat.*   >   profile

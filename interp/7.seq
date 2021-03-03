@@ -1,0 +1,60 @@
+Sequence
+     2
+
+Subsystem SOLUTE
+     1
+BAL
+End
+
+Subsystem WAT
+  1028
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH ; HOH
+End
+
+End
