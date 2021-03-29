@@ -1,12 +1,18 @@
 #!/bin/bash
-
+# generate structures between two zmatrix minima
 python interp.py zmat1 zmat2
+#for each structure along the interpolation
 for i in zma_*
 do
+#turn the interp zmatrix into cartesian coordinates
 python gc.py -zmat $i > cart_$i
+#make the cartesians into fDynamo format
 python crd_maker.py cart_$i
+#specify the number structure we're on in the temp file num
 echo $i | tr -d 'zma_' > num
+#solvate with explicit waters
 ./addwat.exe < num &
 done
+#clean-up
 rm zma_*
 rm cart_*

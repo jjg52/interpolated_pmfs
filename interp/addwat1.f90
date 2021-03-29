@@ -15,11 +15,11 @@ program const
 ! file "opls" must be in the same directory as this program
 ! and must contain parameters for all the atoms of the solute
 !  
-	call mm_file_process( "borra", 'BAL.opls' )
+	call mm_file_process( "borra", 'opls' )
 !
 ! file "THPA.seq" contains sequence information for the solute
 !
-	call mm_system_construct( "borra", 'BAL.seq' )
+	call mm_system_construct( "borra", 'seq' )
 	call mm_system_write( "borra.prt" )
 	nsatoms = natoms
 	nsresid = nresid
